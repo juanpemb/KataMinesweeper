@@ -8,13 +8,20 @@ Have you ever played Minesweeper? It's a cute little game which comes within a c
 ....
 .*..
 ....
+
 The same field including the hint numbers described above would look like this:
+
 *100
 2210
 1*10
 1110
-You should write a program that takes input as follows:
-The input will consist of an arbitrary number of fields. The first line of each field contains two integers n and m (0 < n,m <= 100) which stands for the number of lines and columns of the field respectively. The next n lines contains exactly m characters and represent the field. Each safe square is represented by an "." character (without the quotes) and each mine square is represented by an "*" character (also without the quotes). The first field line where n = m = 0 represents the end of input and should not be processed.
+
+**You should write a program that takes input as follows:**
+	*1-* The input will consist of an arbitrary number of fields. 
+	*2-* The first line of each field contains two integers n and m (0 < n,m <= 100) which stands for the number of lines and columns of the field respectively. 
+	*3-* The next n lines contains exactly m characters and represent the field. 
+	*4-* Each safe square is represented by an "." character (without the quotes) 
+	and each mine square is represented by an "*" character (also without the quotes). The first field line where n = m = 0 represents the end of input and should not be processed.
 
 Your program should produce output as follows:
 
@@ -37,19 +44,22 @@ This is the acceptance test input:
 ....
 .*..
 ....
+
 3 5
 **...
 .....
 .*...
 0 0
+
 and output:
+
 Field #1:
-*100
-2210
-1*10
+*100,
+2210,
+1*10,
 1110
 
 Field #2:
-**100
-33200
+**100,
+33200,
 1*100
