@@ -16,7 +16,7 @@ Have you ever played Minesweeper? It's a cute little game which comes within a c
 
 The same field including the hint numbers described above would look like this:
 
-`*`100
+*100
 
 2210
 
